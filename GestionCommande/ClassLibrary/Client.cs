@@ -11,5 +11,6 @@ namespace ClassLibrary
         public int id { get; set; }
         public string? nomCLient { get; set; }
         public string? adresse { get; set; }
+        public string? ville { get; set; }
     }
 }

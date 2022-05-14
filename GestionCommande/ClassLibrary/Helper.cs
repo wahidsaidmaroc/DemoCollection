@@ -13,10 +13,10 @@ namespace ClassLibrary
         {
             List<Client> list = new List<Client>();
 
-            Client c1 = new Client() { id = 1 , adresse = "Hay Itissal 1", nomCLient = "IAM"};
-            Client c2 = new Client() { id = 2, adresse = "Rue Zarktouni", nomCLient = "OCP" };
-            Client c3 = new Client() { id = 3, adresse = "Hay EL FATH", nomCLient = "INWI" };
-            Client c4 = new Client() { id = 4, adresse = "Moulay Smail", nomCLient = "Orange" };
+            Client c1 = new Client() { id = 1 , adresse = "Hay Itissal 1", nomCLient = "IAM", ville = "Rabat"};
+            Client c2 = new Client() { id = 2, adresse = "Rue Zarktouni", nomCLient = "OCP", ville = "Casa" };
+            Client c3 = new Client() { id = 3, adresse = "Hay EL FATH", nomCLient = "INWI", ville = "Fes" };
+            Client c4 = new Client() { id = 4, adresse = "Moulay Smail", nomCLient = "Orange", ville = "Rabat" };
 
 
             list.Add(c1);
